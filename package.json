@@ -1,0 +1,33 @@
+{
+  "name": "umi-plugin-dll-fix",
+  "version": "0.0.1",
+  "description": "umi dll",
+  "authors": {
+    "name": "marsoln",
+    "email": "marsoln1988@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marsoln/umi-plugin-dll-fix.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "father-build",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "father-build": "^1.8.0",
+    "np": "^5.0.3",
+    "umi": "^2.9.0",
+    "umi-types": "^0.4.0-beta.4"
+  },
+  "peerDependencies": {
+    "umi": "2.x || ^2.9.0-0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "license": "MIT"
+}
